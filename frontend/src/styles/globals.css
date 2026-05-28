@@ -8,31 +8,31 @@
 }
 
 :root {
-  --bg: #05070f;
-  --bg2: #0a0d1a;
-  --bg3: #0f1328;
-  --bg4: #161b35;
+  --bg: #0B1020; /* Calm dark slate */
+  --bg2: #111827; /* Surface slate */
+  --bg3: #1E293B; /* Light slate / Figma panel */
+  --bg4: #334155;
 
-  --cyan: #00e5ff;
-  --cyan2: #00b8cc;
-  --purple: #a855f7;
-  --purple2: #7c3aed;
-  --green: #10ffa0;
-  --orange: #ff6b35;
+  --cyan: #3B82F6; /* Academic Blue */
+  --cyan2: #2563EB;
+  --purple: #3B82F6;
+  --purple2: #2563EB;
+  --green: #22C55E; /* Success */
+  --orange: #F59E0B; 
 
-  --text: #e2e8f0;
-  --text2: #94a3b8;
-  --text3: #475569;
+  --text: #F8FAFC; /* Primary Text */
+  --text2: #94A3B8; /* Secondary Text */
+  --text3: #64748B; /* Muted Text */
 
-  --border: #1e2a4a;
-  --border2: #2d3f6a;
+  --border: rgba(255, 255, 255, 0.06);
+  --border2: rgba(255, 255, 255, 0.08);
 
-  --card: #0d1124;
-  --card2: #111827;
+  --card: #111827; /* Notion-like dark surfaces */
+  --card2: #1E293B;
 }
 
 body {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   background: var(--bg);
   color: var(--text);
   min-height: 100vh;

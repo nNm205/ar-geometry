@@ -1,0 +1,88 @@
+=== OCR TEXT ===
+## Bài 1. 
+Cho hình lăng trụ ABC.A'B'C', đáy ABC có $AC = a\sqrt{3}$, $BC = 3a$, $\widehat{ACB} = 30^{0}$. Cạnh bên hợp với mặt phẳng đáy góc $60^{0}$ và mặt phẳng (A'BC) vuông góc với mặt phẳng (ABC). Điểm H trên cạnh BC sao cho $HC = 3BH$ và mặt phẳng (A'AH) vuông góc với mặt phẳng (ABC). Tính thể tích khối lăng trụ ABC.A'B'C' và khoảng cách từ B đến mặt phẳng (A'AC).
+
+=== LATEX SOLUTION ===
+**Bài 1: Tính thể tích và khoảng cách từ B đến mặt phẳng (A'AC) của hình lăng trụ ABC.A'B'C'**
+
+### 1. Xác định chiều cao của hình lăng trụ
+
+Để tính thể tích và khoảng cách từ B đến mặt phẳng (A'AC), chúng ta cần xác định chiều cao của hình lăng trụ. 
+
+**Bước 1: Xác định chiều cao**
+
+Ta có $AC = a\sqrt{3}$ và $\widehat{ACB} = 30^{0}$. Sử dụng định lý Sine, ta có:
+
+$$\frac{BH}{\sin 30^{0}} = \frac{AC}{\sin 120^{0}}$$
+
+$$\frac{BH}{0,5} = \frac{a\sqrt{3}}{\frac{\sqrt{3}}{2}}$$
+
+$$BH = a$$
+
+Vì $HC = 3BH$, nên:
+
+$$HC = 3a$$
+
+**Bước 2: Xác định chiều cao**
+
+Ta có $BC = 3a$ và $HC = 3a$. Sử dụng định lý Pythagoras, ta có:
+
+$$CH^{2} + BH^{2} = BC^{2}$$
+
+$$CH^{2} + a^{2} = (3a)^{2}$$
+
+$$CH^{2} + a^{2} = 9a^{2}$$
+
+$$CH^{2} = 8a^{2}$$
+
+$$CH = 2\sqrt{2}a$$
+
+### 2. Tính thể tích của hình lăng trụ
+
+Thể tích của hình lăng trụ được tính bằng công thức:
+
+$$V = \frac{1}{3} \times (Diện tích đáy) \times Chiều cao$$
+
+**Bước 3: Tính diện tích đáy**
+
+Diện tích đáy của hình lăng trụ là diện tích tam giác ABC:
+
+$$S_{ABC} = \frac{1}{2} \times AC \times BC \times \sin \widehat{ACB}$$
+
+$$S_{ABC} = \frac{1}{2} \times a\sqrt{3} \times 3a \times \sin 30^{0}$$
+
+$$S_{ABC} = \frac{1}{2} \times a\sqrt{3} \times 3a \times 0,5$$
+
+$$S_{ABC} = \frac{3}{4} \times a^{2} \times \sqrt{3}$$
+
+**Bước 4: Tính thể tích**
+
+Thể tích của hình lăng trụ là:
+
+$$V = \frac{1}{3} \times S_{ABC} \times CH$$
+
+$$V = \frac{1}{3} \times \frac{3}{4} \times a^{2} \times \sqrt{3} \times 2\sqrt{2}a$$
+
+$$V = \frac{1}{3} \times \frac{3}{2} \times a^{3} \times \sqrt{6}$$
+
+$$V = \frac{1}{2} \times a^{3} \times \sqrt{6}$$
+
+### 3. Tính khoảng cách từ B đến mặt phẳng (A'AC)
+
+Khoảng cách từ B đến mặt phẳng (A'AC) được tính bằng công thức:
+
+$$d = \frac{BH \times CH}{BC}$$
+
+**Bước 5: Tính khoảng cách**
+
+Khoảng cách từ B đến mặt phẳng (A'AC) là:
+
+$$d = \frac{a \times 2\sqrt{2}a}{3a}$$
+
+$$d = \frac{2\sqrt{2}a^{2}}{3a}$$
+
+$$d = \frac{2\sqrt{2}a}{3}$$
+
+**Kết luận**
+
+Thể tích của hình lăng trụ ABC.A'B'C' là $\frac{1}{2} \times a^{3} \times \sqrt{6}$ và khoảng cách từ B đến mặt phẳng (A'AC) là $\frac{2\sqrt{2}a}{3}$.
